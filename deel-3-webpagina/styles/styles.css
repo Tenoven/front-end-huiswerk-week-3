@@ -6,29 +6,56 @@
     padding: 0;
 }
 
-/*=========== main code ===========*/
+/*=========== styles ===========*/
 
+/*=========== header ===========*/
+ header {
+     background-color: #030027;
+     color: white;
+     display: flex;
+     justify-content: space-between;
+     height: 5vh;
+     align-items: center;
+     padding-right: 20px;
+ }
+
+ .links {
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     margin-left: 20px;
+ }
+
+ .rechts {
+     display: flex;
+     flex-direction: row;
+     flex-basis: 50%;
+     justify-content: flex-end;
+     gap: 30px;
+
+ }
+
+/*=========== Main ===========*/
 body {
     background-color: #F2F3D9;
 }
 
 .titel{
     color: #030027;
-    border: darkred 1px solid;
     display: flex;
     flex-direction: column;
     text-align: center;
+    flex-basis: 20vh;
+    margin: 5px;
 }
 
 section {
-    border: greenyellow 5px solid;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
 section > article {
-    border: blue 5px solid;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
