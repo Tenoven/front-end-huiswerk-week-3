@@ -64,7 +64,7 @@ section > article {
     margin: 20px;
     background-color: #c16e70;
     height: 350px;
-    flex-basis: 280px;
+    max-width: 280px;
     flex-shrink: 1;
     flex-grow: 0;
 }
