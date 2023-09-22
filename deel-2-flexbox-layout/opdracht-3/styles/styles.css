@@ -1,1 +1,36 @@
 /*Schrijf hier jouw CSS*/
+body {
+    border: 2px greenyellow solid;
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+
+}
+
+nav {
+    flex-basis: 20vw;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    min-width: 80%;
+}
+header, footer {
+    flex-basis: 20%;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 60%;
+}
+
+article {
+    min-width: 80%;
+}
+
+aside {
+    min-width: 20%
+}

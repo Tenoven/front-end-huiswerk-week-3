@@ -1,1 +1,43 @@
-/*Schrijf hier jouw css*/
+/*=========== CSS reset ===========*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*=========== main code ===========*/
+
+body {
+    background-color: #F2F3D9;
+}
+
+.titel{
+    color: #030027;
+    border: darkred 1px solid;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+section {
+    border: greenyellow 5px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+section > article {
+    border: blue 5px solid;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    margin: 20px;
+    background-color: #c16e70;
+    height: 350px;
+    flex-basis: 280px;
+    flex-shrink: 1;
+    flex-grow: 0;
+}

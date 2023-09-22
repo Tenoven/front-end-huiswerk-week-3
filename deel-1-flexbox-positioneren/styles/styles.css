@@ -1,6 +1,7 @@
 /*Schrijf hier jouw CSS*/
 .opdracht-1 > ul {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -12,7 +13,7 @@
 }
 
 .opdracht-2 > ul > li {
-    width: 33%;
+    flex-basis: 33%;
     text-align: left;
 }
 
